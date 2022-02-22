@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "composite": true,
+    "declaration": true,
+    "module": "esnext",
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "target": "es2015",
+    "types": ["node"]
+  },
+  "include": ["./src/**/*.ts*"],
+  "exclude": ["lib", "dist"]
+}
